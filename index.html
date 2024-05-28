@@ -8,65 +8,78 @@
 </head>
 <body>
   <header>
-    <div class="logo">Header Logo</div>
-    <ul>
-      <li class="link one">header link one</li>
-      <li class="link two">header link two</li>
-      <li class=" link three">header link three</li>
-    </ul>
+    <div class="first-header">
+      <div class="logo">Header Logo</div>
+      <ul class="nav-links">
+        <li class="link one">header link one</li>
+        <li class="link two">header link two</li>
+        <li class=" link three">header link three</li>
+      </ul>
+    </div>
+    
+    <div class="second-header">
+      <div class="intro-section">
+        <div class="hero-main-text">This website is <br>awesome</div>
+        <p class="hero-secondary-text">
+          This website has some subtext that goes here under the <br>
+          main title. It's smaller font and color is lower contrast
+        </p>
+        <button class="button two">Sign up</button>  
+      </div>
+      <img 
+      class="coast-image" 
+      src="images/cold-coast.jpg" 
+      alt="This is a place holder for an image"
+      width="600px"
+      height="400px"
+      >
+    </div>
   </header>
 
-  <main>
-    <section class="intro-section">
-      <h1>This website is awesome</h1>
-      <p>
-        This website has subtext that goes here under the main title.
-        It's smaller font and the color is lower contrast
-      </p>
-      <button>Sign up</button>
-      <img src="" alt="this is a place holder for an image">
-    </section>
-
-    <section class="images-section">
-      <h2>Some random information.</h2>
-      <figure>
-        <img src="" alt="image 1">
-        <figcaption></figcaption>
+  <div class="images-section">
+    <div class="info-heading">Some random information.</div>
+    <div class="images-container">
+      <figure class="image-info">
+        <img class="image" src="images/cold-coast.jpg" alt="image 1">
+        <figcaption>First Image</figcaption>
       </figure>
-
-      <figure>
-        <img src="" alt="image 2">
-        <figcaption></figcaption>
+      
+      <figure class="image-info">
+        <img class="image" src="images/cold-coast.jpg" alt="image 2">
+        <figcaption>Second Image</figcaption>
       </figure>
-
-      <figure>
-        <img src="" alt="image 3">
-        <figcaption></figcaption>
+      
+      <figure class="image-info">
+        <img class="image" src="images/cold-coast.jpg" alt="image 3">
+        <figcaption>Third Image</figcaption>
       </figure>
-
-      <figure>
-        <img src="" alt="image 4">
-        <figcaption></figcaption>
+      
+      <figure class="image-info">
+        <img class="image" src="images/cold-coast.jpg" alt="image 4">
+        <figcaption>Fourth Image</figcaption>
       </figure>
-    </section>
+    </div>
+  </div>
 
-    <section class="quote-section">
-      <p>
-        This is an inspiring quote, or a testimonial from a customer. 
-        Maybe its just filling up space, or maybe people will actually read it. 
-        Who knows? All I know is that it looks nice
-      </p>
-      <p>-Thor, God of Thunder</p>
-    </section>
+  <div class="quote-section">
+    <p class="quote">
+      This is an inspiring quote, or a testimonial from <br>
+      a customer. Maybe its just filling up space, or maybe <br>
+      people will actually read it. Who knows? All I know <br> 
+      is that it looks nice
+    </p>
+    <p class="cite"><strong>-Thor, God of Thunder</strong></p>
+  </div>
 
-    <section class="signup-section">
-      <div class="blue-box">
+  <div class="signup-section">
+    <div class="blue-box">
+      <div class="blue-box-info">
         <div class="action-header">Call to action! It's time</div>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+        <p class="signup-description">Sign up for our product by clicking that button right over there!</p>
       </div>
-    </section>
-  </main>
+      <button class="button second">Sign up</button>
+    </div>
+  </div>
 
   <footer>
     <p>Copyright © The Odin Project 2021</p>
